@@ -1,0 +1,67 @@
+.centrePage{
+    padding: 15px;
+}
+
+.colonne{
+    max-width: 23rem;
+    padding-top: 5px;
+}
+
+.underColonne{
+    padding: 15px;
+    background-color: #aaaaaa;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.lesCartes{
+    max-height: 550px;
+    overflow: auto;
+}
+
+.titleCard, .textCard{
+    text-align: center;
+}
+
+.ajoutCarteConteneur{
+    padding-top: 10px;
+}
+
+.card-header{
+    background-color: #32688f;
+    color: white;
+}
+
+.card-body{
+    border: solid 4px transparent;
+}
+
+.bouton{
+    width: 270px;
+}
+
+.inputLocation{
+    vertical-align: text-bottom;
+}
+
+/* drag and drop */
+
+.portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+}
+.portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+}
+.portlet-content {
+    padding: 0.4em;
+}
+.portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+}
